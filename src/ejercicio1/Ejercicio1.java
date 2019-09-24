@@ -6,7 +6,6 @@
 package ejercicio1;
 
 import javax.swing.JFrame;
-import javax.swing.JPanel;
 
 /**
  *
@@ -18,12 +17,12 @@ public class Ejercicio1 extends JFrame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        JFrame fenetre = new JFrame();  
-        fenetre.setTitle("Ma première fenêtre Java");
+        JFrame fenetre = new JFrame();
+        fenetre.setTitle("Mi premera Java");
         fenetre.setVisible(true);
         fenetre.setSize(400, 100);
         fenetre.setLocationRelativeTo(null);
-        fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
+        fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         fenetre.setContentPane(new Panneau());
         fenetre.setVisible(true);
            
