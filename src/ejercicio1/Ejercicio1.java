@@ -17,15 +17,19 @@ public class Ejercicio1 extends JFrame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        JFrame fenetre = new JFrame();
-        fenetre.setTitle("Mi premera Java");
-        fenetre.setVisible(true);
-        fenetre.setSize(400, 100);
-        fenetre.setLocationRelativeTo(null);
-        fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        JFrame fenetre = new Ejercicio1();
         fenetre.setContentPane(new Panneau());
         fenetre.setVisible(true);
            
+    }
+    
+    public Ejercicio1()
+    {
+        setTitle("Mi premera Java");
+        setVisible(true);
+        setSize(400, 100);
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     
 }
